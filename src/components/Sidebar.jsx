@@ -6,7 +6,9 @@ const Sidebar = () => {
   const navigateTo = (route) => {
     navigateRef(route);
   };
-  useEffect(() => navigateRef('/home'), []);
+  useEffect(() => {
+    setTimeout(() => navigateRef('/home'), 1000);
+  }, []);
 
   return (
     <>
@@ -85,7 +87,7 @@ const Sidebar = () => {
             </p>
             <p className="small-text">
               <i className="far fa-clock margin-icon"></i>Lunes-Viernes:
-              9:30am-11:00pm | Sábado y Domingo: 9:30am-2:00pm
+              9:30am-10:00pm | Sábado y Domingo: 9:30am-2:00pm
             </p>
             {/* <!--Social icons --> */}
             <div className="social-media ">

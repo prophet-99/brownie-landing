@@ -26,7 +26,7 @@ const Footer = () => (
           </p>
           <p>
             <i className="far fa-clock margin-icon"></i>Lunes-Viernes:
-            9:30am-11:00pm | Sábado y Domingo: 9:30am-2:00pm
+            9:30am-10:00pm | Sábado y Domingo: 9:30am-2:00pm
           </p>
 
           {/* <!--Social icons --> */}
