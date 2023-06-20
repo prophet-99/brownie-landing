@@ -4,9 +4,11 @@ const Sidebar = () => {
   const navigateRef = useNavigate();
   const navigateTo = (route) => {
     navigateRef(route);
-    setTimeout(() => {
-      location.reload();
-    }, 0);
+    if (route == '/') {
+      setTimeout(() => {
+        location.reload();
+      }, 0);
+    }
   };
 
   return (

@@ -87,60 +87,6 @@ const ServicesView = () => (
             </div>
           </div>
         </div>
-        {/* <!-- service 4 --> */}
-        <div className="col-lg-12 p-1">
-          <div className="box-hover icon p-3">
-            {/* <!-- service icon --> */}
-            <i className="flaticon-cake-1  circle"></i>
-            {/* <!-- service content --> */}
-            <div className="service-content">
-              <h5>Catering</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                dictum malesuada.
-              </p>
-              <a className="btn btn-primary btn-md" href="#">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-        {/* <!-- service 5 --> */}
-        <div className="col-lg-12 p-1">
-          <div className="box-hover icon p-3">
-            {/* <!-- service icon --> */}
-            <i className="flaticon-cooking circle"></i>
-            {/* <!-- service content --> */}
-            <div className="service-content">
-              <h5>Custom orders</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                dictum malesuada.
-              </p>
-              <a className="btn btn-primary btn-md" href="#">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-        {/* <!-- service 5 --> */}
-        <div className="col-lg-12 p-1">
-          <div className="box-hover icon p-3">
-            {/* <!-- service icon --> */}
-            <i className="flaticon-delivery  circle"></i>
-            {/* <!-- service content --> */}
-            <div className="service-content">
-              <h5>Quick Delivery</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                dictum malesuada.
-              </p>
-              <a className="btn btn-primary btn-md" href="#">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
       {/* <!-- /owl-carousel --> */}
     </div>

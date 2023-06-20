@@ -5,7 +5,7 @@ const ParallaxView = () => {
   const navigateTo = (route) => {
     navigateRef(route);
     setTimeout(() => {
-      location.reload();
+      // location.reload();
     }, 0);
   };
 
