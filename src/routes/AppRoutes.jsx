@@ -6,7 +6,7 @@ import ContactPage from '../pages/contact/ContactPage';
 
 const AppRoutes = () => (
   <Routes>
-    <Route path="/" element={<HomePage />} />
+    <Route path="/home" element={<HomePage />} />
     <Route path="/menu" element={<MenuPage />} />
     <Route path="/contact" element={<ContactPage />} />
   </Routes>

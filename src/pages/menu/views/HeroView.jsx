@@ -4,9 +4,9 @@ const HeroView = () => {
   const navigateRef = useNavigate();
   const navigateTo = (route) => {
     navigateRef(route);
-    setTimeout(() => {
-      location.reload();
-    }, 0);
+    // setTimeout(() => {
+    //   location.reload();
+    // }, 0);
   };
 
   return (
@@ -17,7 +17,7 @@ const HeroView = () => {
 
           <ul className="breadcrumb">
             <li>
-              <a href="#" onClick={() => navigateTo('/')}>
+              <a href="#" onClick={() => navigateTo('/home')}>
                 Principal
               </a>
             </li>

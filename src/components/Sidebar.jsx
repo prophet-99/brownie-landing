@@ -1,15 +1,12 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Sidebar = () => {
   const navigateRef = useNavigate();
   const navigateTo = (route) => {
     navigateRef(route);
-    if (route == '/') {
-      setTimeout(() => {
-        location.reload();
-      }, 0);
-    }
   };
+  useEffect(() => navigateRef('/home'), []);
 
   return (
     <>
@@ -48,7 +45,10 @@ const Sidebar = () => {
               <div className="navbar-collapse collapse sidebar-navbar-collapse ">
                 <ul className="nav navbar-nav" id="sidenav01">
                   <li>
-                    <a href="javscript:void(0)" onClick={() => navigateTo('/')}>
+                    <a
+                      href="javscript:void(0)"
+                      onClick={() => navigateTo('/home')}
+                    >
                       Principal
                     </a>
                   </li>

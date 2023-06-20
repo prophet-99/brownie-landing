@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const ParallaxView = () => {
@@ -8,6 +9,21 @@ const ParallaxView = () => {
       // location.reload();
     }, 0);
   };
+
+  useEffect(() => {
+    $('#slider').layerSlider({
+      responsive: true,
+      fitScreenWidth: false,
+      responsiveUnder: 1280,
+      layersContainer: 1280,
+      skin: 'outline',
+      hoverPrevNext: true,
+      skinsPath: './vendor/layerslider/skins/',
+      autoStart: true,
+      autoPlayVideos: false,
+      showCircleTimer: false,
+    });
+  }, []);
 
   return (
     <div
