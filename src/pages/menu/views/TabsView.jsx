@@ -10,7 +10,7 @@ const TabsView = () => (
                   <div className="menu-section">
                     <div className="menu-item">
                       <div className="menu-item-pic lightbox">
-                        <a href="img/menu/price1.jpg">
+                        <a>
                           <img
                             className="img-responsive img-circle img-price"
                             src="img/menu/price1.jpg"
@@ -21,7 +21,7 @@ const TabsView = () => (
                       <div className="menu-item-name">
                         Brownie con glaseado de chocolate y frutos secos
                       </div>
-                      <div className="menu-item-price">S/.-</div>
+                      <div className="menu-item-price">S/.8</div>
                       <div className="menu-item-description">
                         <p>
                           Experimenta el placer de nuestro brownie con un toque
@@ -36,7 +36,7 @@ const TabsView = () => (
 
                     <div className="menu-item">
                       <div className="menu-item-pic lightbox">
-                        <a href="img/menu/price2.jpg">
+                        <a>
                           <img
                             className="img-responsive img-circle img-price"
                             src="img/menu/price2.jpg"
@@ -47,7 +47,7 @@ const TabsView = () => (
                       <div className="menu-item-name">
                         Brownie con glaseado de vainilla y frutos secos
                       </div>
-                      <div className="menu-item-price">S/.-</div>
+                      <div className="menu-item-price">S/.10</div>
                       <div className="menu-item-description">
                         <p>
                           Deléitate con nuestro brownie hecho de manera natural,
@@ -61,7 +61,7 @@ const TabsView = () => (
 
                     <div className="menu-item">
                       <div className="menu-item-pic lightbox">
-                        <a href="img/menu/price3.jpg">
+                        <a>
                           <img
                             className="img-responsive img-circle img-price"
                             src="img/menu/price3.jpg"
@@ -72,7 +72,7 @@ const TabsView = () => (
                       <div className="menu-item-name">
                         Mini brownies con diferentes formas
                       </div>
-                      <div className="menu-item-price">S/.-</div>
+                      <div className="menu-item-price">S/.15</div>
                       <div className="menu-item-description">
                         <p>
                           Descubre la magia de nuestros brownies fortificados en
